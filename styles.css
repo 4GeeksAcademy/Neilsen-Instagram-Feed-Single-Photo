@@ -1,0 +1,31 @@
+div .container {
+    background: white;
+    margin: 0px;
+}
+body {
+    background: black;
+    margin: auto;
+    width: 800px;
+    border: 3px;
+    padding: 0px;
+}
+
+div .post {
+    background: white;
+}
+div .post-header {
+    display: flex;
+    padding: 22px;
+}
+div .post-header p {
+    margin: 0;
+}
+
+  
+div .post-icons {
+    display: flex;
+}
+img {
+    width: 800px;
+    height: 700px;
+}
