@@ -1,4 +1,4 @@
-div .container {
+.container {
     background: white;
     margin: 0px;
 }
@@ -9,23 +9,31 @@ body {
     border: 3px;
     padding: 0px;
 }
-
-div .post {
+.post {
     background: white;
 }
-div .post-header {
-    display: flex;
-    padding: 22px;
+.post-header {
+    padding: 0;
 }
-div .post-header p {
-    margin: 0;
+.post-header p {
+    margin: 0px;
 }
-
-  
-div .post-icons {
+.post-icons {
     display: flex;
+    margin: 20px;
 }
 img {
     width: 800px;
     height: 700px;
+}
+.post-body {
+    margin: 30px;
+}
+.top-space {
+    display: flex;
+    justify-content: space-between;
+}
+.bookmark {
+    display: flex;
+    justify-content: center;
 }
