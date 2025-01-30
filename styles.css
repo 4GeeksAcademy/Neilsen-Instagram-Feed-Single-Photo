@@ -27,13 +27,14 @@ img {
     height: 700px;
 }
 .post-body {
-    margin: 30px;
+    margin: 25px;
 }
 .top-space {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.bookmark {
+.left {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
