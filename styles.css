@@ -33,8 +33,16 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px;
+    padding: 10px
 }
 .left {
     display: flex;
     align-items: center;
+}
+.bookmark {
+    display: flex;
+    justify-content: right;
+    margin: 20px
+    
 }
